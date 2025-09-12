@@ -1,17 +1,21 @@
-import XCTest
+import Foundation
+import Testing
 @testable import VulnerableSwiftApp
 
-final class VulnerableSwiftAppTests: XCTest {
+struct VulnerableSwiftAppTests {
     
-    func testNetworkClient() throws {
+    @Test func testNetworkClient() async throws {
         let client = NetworkClient()
-        let expectation = XCTestExpectation(description: "Network request")
+        var callbackExecuted = false
         
         client.fetchUserData(userId: "123") { data in
             // This test would fail in a real scenario due to insecure HTTP
-            expectation.fulfill()
+            callbackExecuted = true
         }
         
-        wait(for: [expectation], timeout: 5.0)
+        // Simple wait to allow callback to execute
+        try await Task.sleep(nanoseconds: 1_000_000_000) // 1 second
+        
+        #expect(callbackExecuted)
     }
 }
