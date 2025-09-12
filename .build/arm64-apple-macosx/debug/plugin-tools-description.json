@@ -1,0 +1,582 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.xctest/Contents/MacOS/VulnerableSwiftAppPackageTests",
+      "packagePath" : "/Users/austinjaybecker/SwiftVulns",
+      "productName" : "VulnerableSwiftAppPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.VulnerableSwiftApp-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp.build/sources",
+      "importPath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/Sources/VulnerableSwiftApp/NetworkClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/Sources/VulnerableSwiftApp/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "VulnerableSwiftApp",
+      "moduleOutputPath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/Modules/VulnerableSwiftApp.swiftmodule",
+      "objects" : [
+        "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp.build/NetworkClient.swift.o",
+        "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "VulnerableSwiftApp_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swiftvulns"
+      ],
+      "outputFileMapPath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp.build/NetworkClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/Modules/VulnerableSwiftApp.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/austinjaybecker/SwiftVulns/Sources/VulnerableSwiftApp/NetworkClient.swift",
+        "/Users/austinjaybecker/SwiftVulns/Sources/VulnerableSwiftApp/main.swift"
+      ],
+      "tempsPath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.VulnerableSwiftAppPackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.build/sources",
+      "importPath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/Modules/VulnerableSwiftAppTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "VulnerableSwiftAppPackageTests",
+      "moduleOutputPath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/Modules/VulnerableSwiftAppPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.build/VulnerableSwiftAppPackageTests-Swift.h",
+        "-color-diagnostics",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swiftvulns"
+      ],
+      "outputFileMapPath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/Modules/VulnerableSwiftAppPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.VulnerableSwiftAppTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppTests.build/sources",
+      "importPath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/Tests/VulnerableSwiftAppTests/VulnerableSwiftAppTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "VulnerableSwiftAppTests",
+      "moduleOutputPath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/Modules/VulnerableSwiftAppTests.swiftmodule",
+      "objects" : [
+        "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppTests.build/VulnerableSwiftAppTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swiftvulns"
+      ],
+      "outputFileMapPath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppTests.build/VulnerableSwiftAppTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/Modules/VulnerableSwiftAppTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/austinjaybecker/SwiftVulns/Tests/VulnerableSwiftAppTests/VulnerableSwiftAppTests.swift"
+      ],
+      "tempsPath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "VulnerableSwiftApp" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "VulnerableSwiftApp",
+      "-package-name",
+      "swiftvulns",
+      "-incremental",
+      "-c",
+      "/Users/austinjaybecker/SwiftVulns/Sources/VulnerableSwiftApp/NetworkClient.swift",
+      "/Users/austinjaybecker/SwiftVulns/Sources/VulnerableSwiftApp/main.swift",
+      "-I",
+      "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.15",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "VulnerableSwiftApp_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swiftvulns",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "VulnerableSwiftAppPackageTests" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "VulnerableSwiftAppPackageTests",
+      "-package-name",
+      "swiftvulns",
+      "-incremental",
+      "-c",
+      "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.15",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.build/VulnerableSwiftAppPackageTests-Swift.h",
+      "-color-diagnostics",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swiftvulns",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "VulnerableSwiftAppTests" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "VulnerableSwiftAppTests",
+      "-package-name",
+      "swiftvulns",
+      "-incremental",
+      "-c",
+      "/Users/austinjaybecker/SwiftVulns/Tests/VulnerableSwiftAppTests/VulnerableSwiftAppTests.swift",
+      "-I",
+      "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.15",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swiftvulns",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "VulnerableSwiftApp" : [
+
+    ],
+    "VulnerableSwiftAppPackageTests" : [
+      "VulnerableSwiftAppTests",
+      "VulnerableSwiftApp"
+    ],
+    "VulnerableSwiftAppTests" : [
+      "VulnerableSwiftApp"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp-entitlement.plist"
+    },
+    "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/Sources/VulnerableSwiftApp/NetworkClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/Sources/VulnerableSwiftApp/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp.build/sources"
+    },
+    "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp.build/NetworkClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp.product/Objects.LinkFileList"
+    },
+    "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.build/sources"
+    },
+    "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp.build/NetworkClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftApp.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppTests.build/VulnerableSwiftAppTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/austinjaybecker/SwiftVulns/Tests/VulnerableSwiftAppTests/VulnerableSwiftAppTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppTests.build/sources"
+    },
+    "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}

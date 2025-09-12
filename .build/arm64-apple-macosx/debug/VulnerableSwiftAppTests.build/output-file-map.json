@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppTests.build/master.swiftdeps"
+  },
+  "/Users/austinjaybecker/SwiftVulns/Tests/VulnerableSwiftAppTests/VulnerableSwiftAppTests.swift": {
+    "dependencies": "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppTests.build/VulnerableSwiftAppTests.d",
+    "object": "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppTests.build/VulnerableSwiftAppTests.swift.o",
+    "swiftmodule": "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppTests.build/VulnerableSwiftAppTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppTests.build/VulnerableSwiftAppTests.swiftdeps"
+  }
+}

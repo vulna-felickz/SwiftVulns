@@ -1,0 +1,4 @@
+module VulnerableSwiftAppPackageTests {
+    header "/Users/austinjaybecker/SwiftVulns/.build/arm64-apple-macosx/debug/VulnerableSwiftAppPackageTests.build/VulnerableSwiftAppPackageTests-Swift.h"
+    requires objc
+}

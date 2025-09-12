@@ -37,13 +37,27 @@ func generateWeakToken() -> String {
     var token = ""
     
     // Using predictable random number generation
-    srand(1234) // Fixed seed - predictable
+    var rng = LinearCongruentialGenerator(seed: 1234) // Fixed seed - predictable
     for _ in 0..<10 {
-        let randomIndex = Int(rand()) % characters.count
+        let randomIndex = Int(rng.next()) % characters.count
         let index = characters.index(characters.startIndex, offsetBy: randomIndex)
         token += String(characters[index])
     }
     return token
+}
+
+// Simple Linear Congruential Generator for predictable randomness (vulnerability)
+struct LinearCongruentialGenerator: RandomNumberGenerator {
+    private var seed: UInt64
+    
+    init(seed: UInt64) {
+        self.seed = seed
+    }
+    
+    mutating func next() -> UInt64 {
+        seed = (seed &* 1103515245 &+ 12345) & 0x7fffffff
+        return seed
+    }
 }
 
 // VULNERABILITY 6: Path traversal vulnerability
