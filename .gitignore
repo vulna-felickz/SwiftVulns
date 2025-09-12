@@ -1,0 +1,37 @@
+# Swift Package Manager build directory
+.build/
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code coverage
+*.gcov
+*.gcda
+*.gcno
+
+# macOS
+.DS_Store
