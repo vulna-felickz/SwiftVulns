@@ -1,4 +1,4 @@
-name: Swift Build (NO CODEQL)
+name: Swift Build + CODEQL
 
 on:
   push:
@@ -33,12 +33,12 @@ jobs:
       with:
         xcode-version: latest-stable
 
-    # - name: Initialize CodeQL
-    #   uses: github/codeql-action/init@v3
-    #   with:
-    #     languages: ${{ matrix.language }}
-    #     # Optionally specify CodeQL queries to run
-    #     # queries: security-extended,security-and-quality
+    - name: Initialize CodeQL
+      uses: github/codeql-action/init@v3
+      with:
+        languages: ${{ matrix.language }}
+        # Optionally specify CodeQL queries to run
+        # queries: security-extended,security-and-quality
 
     - name: Cache Swift Package Manager
       uses: actions/cache@v4
@@ -68,10 +68,10 @@ jobs:
     #     xcodebuild -scheme YourScheme -destination 'platform=iOS Simulator,name=iPhone 14' build
     #     xcodebuild -scheme YourScheme -destination 'platform=iOS Simulator,name=iPhone 14' test
 
-    # - name: Perform CodeQL Analysis
-    #   uses: github/codeql-action/analyze@v3
-    #   with:
-    #     category: "/language:${{matrix.language}}"
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v3
+      with:
+        category: "/language:${{matrix.language}}"
 
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
